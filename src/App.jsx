@@ -144,7 +144,7 @@ function App() {
           </div>
           <div className="absolute bottom-10 animate-bounce">
             <a href="#about" style={{cursor: 'pointer'}}>
-              <ChevronDown className="h-8 w-8 arrow-down" />
+              <i class="bi bi-chevron-double-down"></i>
             </a>
           </div>
 
