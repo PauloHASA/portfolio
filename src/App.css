@@ -604,3 +604,99 @@ a{
     }
   }
 }
+
+@media (max-width: 480px){
+
+  .central-container{
+    width: 100%;
+    padding: 0 24px;
+  }
+  .principal-title {
+     font-size: 2rem;
+  }
+  .nav-horizontal {
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .fixed{
+
+    display: none;
+  }
+
+  .dev-data{
+    flex-direction: column-reverse;
+
+    .img-area-aboutMe{
+      margin: 24px 0;
+      display: flex;
+      justify-content: center;
+
+      
+    }
+    
+    .txt-area-aboutMe{
+      p{
+        
+        text-indent: 20px;
+        font-size: 0.9rem;
+      }
+    }
+
+    .social-media{
+      justify-content: center;
+    }
+
+
+  }
+  .col-9{
+    padding: 0 !important;
+  }
+  .container-experience-box {
+    height: 206px;
+
+    header{
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      section{
+        h1{
+          font-size: 0.8rem;
+          line-height: 1.4;
+        }
+      }
+    }
+
+    main {
+      height: 76px;
+      p {
+        font-size: 0.8rem;
+      }    
+    }
+
+    footer{
+      button{
+        font-size: 0.8rem;
+      }
+    }
+}
+
+  .container-experience-box header section:nth-child(2){
+    position: absolute;
+    top: 24px;
+    right: 0;
+    h2{
+      font-size: 0.8rem;
+    }
+  }
+
+  .description_txt{
+    font-size: 0.8rem;
+  }
+
+
+}

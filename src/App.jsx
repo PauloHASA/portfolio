@@ -144,7 +144,7 @@ function App() {
           </div>
           <div className="absolute bottom-10 animate-bounce">
             <a href="#about" style={{cursor: 'pointer'}}>
-              <i class="bi bi-chevron-double-down"></i>
+              <i className="bi bi-chevron-double-down"></i>
             </a>
           </div>
 
@@ -161,7 +161,7 @@ function App() {
                 </h2>
               </Parallax>
 
-              <div className="row">
+              <div className="row dev-data">
                 <div className="col flex-col-center txt-area-aboutMe">
                   <p>
                     {translations[language].about_me_one} 
