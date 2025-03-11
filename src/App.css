@@ -437,15 +437,33 @@ a{
   footer{
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     padding: 0px 12px 12px;
+
+    a{
+      display: flex;
+      gap: 6px;
+
+      i{
+        --tw-text-opacity: 1;
+        color: rgb(37 99 235 / var(--tw-text-opacity));
+      }
+
+      p{
+        margin: 0;
+        text-decoration: underline;
+        --tw-text-opacity: 1;
+        color: rgb(37 99 235 / var(--tw-text-opacity));
+      }
+
+    }
 
     button{
       background: transparent;
-            border: none;
-            text-decoration: underline;
-            --tw-text-opacity: 1;
-            color: rgb(37 99 235 / var(--tw-text-opacity));
+      border: none;
+      text-decoration: underline;
+      --tw-text-opacity: 1;
+      color: rgb(37 99 235 / var(--tw-text-opacity));
     }
   }
 
@@ -603,6 +621,36 @@ a{
       height: 25px;
     }
   }
+}
+
+.linkToProject {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;  /* Deixa o texto com a cor do padrão */
+}
+
+.linkToProject i {
+  margin-right: 8px;  /* Espaço entre o ícone e o texto */
+  display: inline-block;
+}
+
+.linkToProject p {
+  display: none;  /* Oculta o texto inicialmente */
+}
+
+.linkToProject:hover i {
+  display: none;  /* Oculta o ícone no hover */
+}
+
+.linkToProject:hover p {
+  display: inline-block;  /* Exibe o texto quando o hover é ativo */
+}
+
+.skills-container.projectContainers{
+  flex-wrap: nowrap;
+  padding: 0;
+  overflow: auto;
 }
 
 @media (max-width: 480px){

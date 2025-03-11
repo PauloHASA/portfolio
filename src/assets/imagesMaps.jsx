@@ -29,6 +29,7 @@ import icon_brasil from "./icons/icon-brasil.png";
 import icon_usa from "./icons/icon-usa.png";
 import icon_espanha from "./icons/icon-espanha.png";
 import dev_img from "./icons/dev_img.jpg";
+import decorImg from "./icons/decorImg.png";
 
 
 const images = {
@@ -63,6 +64,7 @@ const images = {
     icon_usa:icon_usa,
     icon_espanha:icon_espanha,
     dev_img:dev_img,
+    decorImg:decorImg,
   },
 
 };

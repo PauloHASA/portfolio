@@ -36,6 +36,8 @@
     "project_details_wellnova": "A plataforma Wellnova foi desenvolvida para auxiliar petrofísicos na interpretação da integridade do cimento em poços de petróleo. O projeto evoluiu para incluir visualização interativa de logs, simulações avançadas e outras funcionalidades essenciais, proporcionando uma experiência intuitiva e eficiente para os usuários. Neste projeto, sou responsável pelo desenvolvimento front-end e integração de APIs.",
     "project_details_digitalpm_title": "Gerenciamento de projetos",
     "project_details_digitalpm": "O Project Manager foi desenvolvido para atender à alta demanda e ao gerenciamento eficiente de projetos de P&D na Ouronova. A plataforma permite que os gestores administrem tanto a parte financeira quanto a equipe do projeto, complementando as funções de recursos humanos. Além disso, o sistema possibilita a realização de avaliações de desempenho, feedback contínuo e o controle completo do progresso dos projetos, incluindo a gestão rigorosa de prazos e entregas.",
+    "project_details_decor_title": "Portfolio para Arquitetos",
+    "project_details_decor": "A Decor foi concebida como uma rede social voltada para arquitetos, designers de interiores, paisagistas e outros profissionais da área, proporcionando uma plataforma exclusiva para conectar usuários a esses especialistas. Nessa plataforma, o usuário pode visualizar os projetos do profissional, juntamente com a região em que ele atende. Também implementamos, por meio de um banco de dados, a funcionalidade que permite aos profissionais divulgar seu trabalho utilizando e-mail marketing e outros meios, com foco em regiões específicas. Além disso, integramos lojas parceiras que fazem parte do portfólio do profissional, permitindo que o usuário visualize móveis e outros itens, com a opção de acessar diretamente o link da loja para realizar a compra. Neste projeto, atuei como desenvolvedor full stack, em colaboração com uma designer UX/UI, que idealizou a plataforma junto ao cliente.",
     "repository": "Repositórios",
     "text_vite": "Depois que conheci o Vite, ficou difícil voltar atrás. A velocidade no desenvolvimento, o hot reload instantâneo e a leveza no build fizeram toda a diferença no meu fluxo de trabalho. Com ele, deixei de perder tempo com esperas desnecessárias e passei a focar no que realmente importa: o desenvolvimento da aplicação. Hoje, todos os meus projetos React começam com Vite, e a experiência nunca foi tão fluida.",
     "text_react": "Em projetos onde atuo apenas no front-end e trabalho com APIs, o React é minha escolha pela sua agilidade na criação de interfaces dinâmicas e pela facilidade de integração com back-end. A gestão do estado de forma declarativa e a estrutura baseada em componentes tornam a manutenção e a escalabilidade mais simples. Além disso, sua grande comunidade e documentação garantem um desenvolvimento rápido e sem dificuldades.",
@@ -54,8 +56,11 @@
     "text_bitbuket": "Utilizei o Bitbucket como repositório empresarial em algumas das empresas nas quais atuei. A plataforma ofereceu uma solução robusta para o controle de versões e colaboração em equipe, com integração fácil a ferramentas de CI/CD. Além disso, o Bitbucket permitiu uma gestão eficiente dos projetos, com recursos como branching e pull requests, essenciais para garantir a qualidade e organização do código.",
     "level_basic": "básico",
     "level_inter": "Intermediário",
-    "level_advan": "Avançado"
+    "level_advan": "Avançado",
+    "link_to_project": "Ver o Resultado",
+    "link_unavailable":"Indisponível temporariamente"
   },
+
   "en": {
     "name": "Paulo Hasa",
     "greeting": "Hey! I'm",
@@ -93,6 +98,9 @@
     "project_details_wellnova": "The Wellnova platform was developed to help petrophysicists interpret cement integrity in oil wells. The project evolved to include interactive log visualization, advanced simulations, and other essential features, providing an intuitive and efficient experience for users. In this project, I am responsible for front-end development and API integration.",
     "project_details_digitalpm_title": "Project Management",
     "project_details_digitalpm": "The Project Manager was developed to meet the high demand and efficient management of R&D projects at Ouronova. The platform allows managers to handle both the financial and team aspects of the project, complementing human resources functions. Additionally, the system enables performance evaluations, continuous feedback, and full control of project progress, including strict management of deadlines and deliveries.",
+    "project_details_decor_title": "Portfolio for Architects",
+    "project_details_decor": "Decor was conceived as a social network aimed at architects, interior designers, landscapers, and other professionals in the field, providing an exclusive platform to connect users with these specialists. On this platform, users can view the professional's projects, along with the region they serve. We also implemented, through a database, the functionality that allows professionals to promote their work using email marketing and other methods, with a focus on specific regions. Additionally, we integrated partner stores that are part of the professional's portfolio, allowing users to view furniture and other items, with the option to directly access the store's link to make a purchase. In this project, I worked as a full-stack developer, collaborating with a UX/UI designer who designed the platform alongside the client.",
+
     "repository": "Repositories",
     "text_vite": "Once I discovered Vite, it became hard to go back. The development speed, instant hot reload, and lightweight build made all the difference in my workflow. With it, I stopped wasting time on unnecessary waits and focused on what really matters: developing the application. Now, all my React projects start with Vite, and the experience has never been smoother.",
     "text_react": "In projects where I only work on the front-end and deal with APIs, React is my choice due to its agility in creating dynamic interfaces and ease of integration with back-end. The declarative state management and component-based structure make maintenance and scalability simpler. Additionally, its large community and documentation ensure fast development without hassle.",
@@ -111,8 +119,13 @@
     "text_bitbuket": "I’ve used Bitbucket as an enterprise repository at some of the companies I’ve worked for. The platform offered a robust solution for version control and team collaboration, with easy integration into CI/CD tools. Additionally, Bitbucket enabled efficient project management with features like branching and pull requests, essential for ensuring code quality and organization.",
     "level_basic": "Basic",
     "level_inter": "Intermediate",
-    "level_advan": "Advanced"
+    "level_advan": "Advanced",
+    "link_to_project": "See the Result",
+    "link_unavailable":"Temporarily Unavailable"
+
+
     },
+
   "es": {
     "name": "Paulo Hasa",
     "greeting": "¡Hola! Soy",
@@ -150,6 +163,9 @@
     "project_details_wellnova": "La plataforma Wellnova fue desarrollada para ayudar a los petrofísicos en la interpretación de la integridad del cemento en pozos de petróleo. El proyecto evolucionó para incluir visualización interactiva de logs, simulaciones avanzadas y otras funcionalidades esenciales, proporcionando una experiencia intuitiva y eficiente para los usuarios. En este proyecto, soy responsable del desarrollo del front-end y la integración de APIs.",
     "project_details_digitalpm_title": "Gestión de Proyectos",
     "project_details_digitalpm": "El Project Manager fue desarrollado para atender la alta demanda y la gestión eficiente de proyectos de I+D en Ouronova. La plataforma permite a los gestores administrar tanto la parte financiera como el equipo del proyecto, complementando las funciones de recursos humanos. Además, el sistema permite realizar evaluaciones de desempeño, retroalimentación continua y el control total del progreso de los proyectos, incluyendo la gestión rigurosa de plazos y entregas.",
+    "project_details_decor_title": "Portafolio para Arquitectos",
+    "project_details_decor": "Decor fue concebida como una red social dirigida a arquitectos, diseñadores de interiores, paisajistas y otros profesionales del área, proporcionando una plataforma exclusiva para conectar a los usuarios con estos especialistas. En esta plataforma, el usuario puede ver los proyectos del profesional, junto con la región en la que él trabaja. También implementamos, a través de una base de datos, la funcionalidad que permite a los profesionales promocionar su trabajo mediante marketing por correo electrónico y otros medios, enfocados en regiones específicas. Además, integramos tiendas asociadas que forman parte del portafolio del profesional, permitiendo que el usuario vea muebles y otros artículos, con la opción de acceder directamente al enlace de la tienda para realizar la compra. En este proyecto, trabajé como desarrollador full-stack, colaborando con una diseñadora UX/UI que ideó la plataforma junto con el cliente.",
+    
     "repository": "Repositorios",
     "text_vite": "Después de conocer Vite, fue difícil volver atrás. La velocidad en el desarrollo, el hot reload instantáneo y la ligereza en la construcción hicieron toda la diferencia en mi flujo de trabajo. Con él, dejé de perder tiempo con esperas innecesarias y me enfoqué en lo que realmente importa: el desarrollo de la aplicación. Hoy en día, todos mis proyectos React comienzan con Vite, y la experiencia nunca ha sido tan fluida.",
     "text_react": "En proyectos donde solo trabajo en el front-end y con APIs, React es mi elección por su agilidad en la creación de interfaces dinámicas y la facilidad de integración con el back-end. La gestión del estado de manera declarativa y la estructura basada en componentes hacen que el mantenimiento y la escalabilidad sean más sencillos. Además, su gran comunidad y documentación garantizan un desarrollo rápido y sin dificultades.",
@@ -168,6 +184,12 @@
     "text_bitbuket": "He utilizado Bitbucket como repositorio empresarial en algunas de las empresas en las que he trabajado. La plataforma ofreció una solución robusta para el control de versiones y la colaboración en equipo, con fácil integración en herramientas de CI/CD. Además, Bitbucket permitió una gestión eficiente de proyectos, con características como branching y pull requests, esenciales para garantizar la calidad y organización del código.",
     "level_basic": "Básico",
     "level_inter": "Intermedio",
-    "level_advan": "Avanzado"
+    "level_advan": "Avanzado",
+    "link_to_project": "Ver el Resultado",
+    "link_unavailable":"emporalmente Indisponible"
+
+
     }
 }
+
+

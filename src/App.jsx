@@ -478,7 +478,7 @@ function App() {
           </p> */}
 
           <div className="row justify-content-center margin-top-45">
-            <div className="col-9 skills-container">
+            <div className="col-9 skills-container projectContainers">
 
               <div className={`container-projects ${ expandedContainerId === 5 ? 'expand' : ''}`}>
                 <header>
@@ -507,7 +507,11 @@ function App() {
                   </section>
                 </main>
                   <footer>
-                  <button onClick={() => handleExpandContainer(5)}>
+                    <a href="https://smartion.ai/"  target="_blank" className="linkToProject">
+                      <i className="bi bi-box-arrow-up-right"></i>
+                      <p>{translations[language].link_to_project}</p>                      
+                    </a>
+                    <button onClick={() => handleExpandContainer(5)}>
                       {expandedContainerId === 5 ? translations[language].retract_btn : translations[language].expand_btn}
                     </button>
                   </footer>
@@ -537,8 +541,48 @@ function App() {
                   </section>
                 </main>
                   <footer>
-                  <button onClick={() => handleExpandContainer(5)}>
+                    <a href="https://ouronova.digital/"  target="_blank" className="linkToProject">
+                      <i className="bi bi-box-arrow-up-right"></i>
+                      <p>{translations[language].link_to_project}</p>                      
+                    </a>
+                    <button onClick={() => handleExpandContainer(5)}>
                       {expandedContainerId === 5 ? translations[language].retract_btn : translations[language].expand_btn}
+                    </button>
+                  </footer>
+              </div>
+
+              <div className={`container-projects ${ expandedContainerId === 6 ? 'expand' : ''}`}>
+                <header>
+                  <img src={images.logos.decorImg} alt="" />
+                </header>
+                <main>
+                  <h1>
+                    {translations[language].project_details_decor_title} 
+                  </h1>
+                  <p>
+                  {translations[language].project_details_decor} 
+
+                  </p>
+                  <section>
+                    <div className="tec-text">
+                      <p>Python</p>
+                      <p>Django</p>
+                      <p>Django rest framework</p>
+                      <p>Bootstrap5</p>
+                      <p>CSS3</p>
+                      <p>Vite</p>
+                      <p>Next.js</p>
+                      <p>Nobe.js</p>
+                    </div>
+                  </section>
+                </main>
+                  <footer>
+                    <div className="linkToProject">
+                      <i className="bi bi-box-arrow-up-right"></i>
+                      <p style={{fontSize: '0.8rem', margin: '0'}}>{translations[language].link_unavailable}</p>                      
+                    </div>
+                    <button onClick={() => handleExpandContainer(6)}>
+                      {expandedContainerId === 6 ? translations[language].retract_btn : translations[language].expand_btn}
                     </button>
                   </footer>
               </div>
