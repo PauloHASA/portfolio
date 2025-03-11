@@ -507,7 +507,7 @@ function App() {
                   </section>
                 </main>
                   <footer>
-                    <a href="https://www.wellnova.com.br/login/"  target="_blank" className="linkToProject">
+                    <a href="https://smartion.ai/"  target="_blank" className="linkToProject">
                       <i className="bi bi-box-arrow-up-right"></i>
                       <p>{translations[language].link_to_project}</p>                      
                     </a>
